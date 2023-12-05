@@ -74,9 +74,10 @@ def perimeter(a, b, c):
 + ce04e014a0a4adecf578660a466270f004f4e3be docs: added documentation for circle.py
 + 4973d225376eccaaa2b537be9fc59ef57a46bc50 docs: added documentation for circle.py
 
-##Тесты
+## Тесты
 
 | Тест  | Название модуля  | Название функции  | Входные данные       | Результат            | Ожидаемый результат  | Вердикт    |
+|-------|------------------|-------------------|----------------------|----------------------|----------------------|------------|
 | 1     | circle           | area              | radius=0             | 0                    | 0                    | Passed     |
 | 2     | circle           | area              | radius=4             | 50.26548245743669    | 50.26548245743669    | Passed     |
 | 3     | circle           | area              | radius=34            | 3631.6811075498013   | 3631.6811075498013   | Passed     |
