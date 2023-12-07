@@ -43,3 +43,22 @@ class CircleTestCase(unittest.TestCase):
     def test_float_perimeter(self):
         res = perimeter(1.5)
         self.assertEqual(res, 9.42477796076938)
+
+    def test_incorrect_area(self):
+        res = area(-6)
+        self.assertEqual(res, 'input error')
+
+    def test_wrong_area(self):
+        res = area(1)
+        self.assertEqual(300, 2341)
+
+    def test_incorrect_perimeter(self):
+        res = area(-9)
+        self.assertEqual(res, 'input error')
+
+    def test_wrong_perimeter(self):
+        res = area(4)
+        self.assertEqual(300, 2234)
+
+if __name__ == '__main__':
+    unittest.main()
